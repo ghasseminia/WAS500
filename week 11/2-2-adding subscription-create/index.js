@@ -23,9 +23,9 @@ const Subscriber = mongoose.model("Subscriber", subscriberSchema);
 
 Subscriber.create(
   {
-    name: "Mo Salah",
-    email: "mo.salah@senecacollege.ca",
-    zipCode: "10056",
+    name: "Jason",
+    email: "jason@senecacollege.ca",
+    zipCode: "10058",
   },
   function (error, savedDocument) {
     if (error) console.log(error);

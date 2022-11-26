@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 mongoose.connect(
-  "mongodb+srv://dbuser:xxxx@was500.rornrws.mongodb.net/?retryWrites=true&w=majority",
+  "mongodb+srv://dbuser:5bZ4MViy3T3Tc1xX@was500.rornrws.mongodb.net/?retryWrites=true&w=majority",
   { useUnifiedTopology: true }
 );
 
